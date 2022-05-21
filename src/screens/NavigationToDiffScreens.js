@@ -20,6 +20,13 @@ const NavigationToDiffScreens = (props) => {
       >
         <Text>Go to List demo</Text>
       </TouchableOpacity>
+
+      <Button
+        title="Go to Image Screen"
+        onPress={() => {
+          return props.navigation.navigate("ImageScreen");
+        }}
+      />
     </View>
   );
 };
