@@ -27,6 +27,14 @@ const NavigationToDiffScreens = (props) => {
           return props.navigation.navigate("ImageScreen");
         }}
       />
+
+      <TouchableOpacity
+        onPress={() => {
+          return props.navigation.navigate("LayoutExercise");
+        }}
+      >
+        <Text style={styles.text}>Go to Layout Exercise</Text>
+      </TouchableOpacity>
     </View>
   );
 };
