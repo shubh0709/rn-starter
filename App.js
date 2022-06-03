@@ -6,6 +6,7 @@ import ListScreen from "./src/screens/ListScreen";
 import NavigationToDiffScreens from "./src/screens/NavigationToDiffScreens";
 import ImageScreen from "./src/screens/ImageScreen";
 import LayoutExercise from "./src/layout/exercise";
+import restaurantLandingPage from "./src/Restaurant/restaurantScreens/restaurantLandingPage";
 
 const navigator = createStackNavigator(
   {
@@ -15,6 +16,7 @@ const navigator = createStackNavigator(
     NavigationToDiffScreens: NavigationToDiffScreens,
     ImageScreen: ImageScreen,
     LayoutExercise: LayoutExercise,
+    restaurantLandingPage: restaurantLandingPage,
   },
   {
     initialRouteName: "NavigationToDiffScreens",

@@ -35,6 +35,14 @@ const NavigationToDiffScreens = (props) => {
       >
         <Text style={styles.text}>Go to Layout Exercise</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => {
+          return props.navigation.navigate("restaurantLandingPage");
+        }}
+      >
+        <Text style={styles.text}>Visit the restaurant</Text>
+      </TouchableOpacity>
     </View>
   );
 };

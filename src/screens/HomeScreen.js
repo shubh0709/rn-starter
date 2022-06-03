@@ -1,13 +1,22 @@
-import React from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import React from "react";
+import { Text, StyleSheet, View } from "react-native";
 
+// style={styles.easyDev}
 const HomeScreen = () => {
-  return <Text style={styles.text}>HomeScreen</Text>;
+  return (
+    <View>
+      <Text style={styles.text}>HomeScreen</Text>
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
-  text: { 
+  text: {
     fontSize: 30,
+  },
+  easyDev: {
+    borderWidth: 4,
+    borderColor: "red",
   },
 });
 
